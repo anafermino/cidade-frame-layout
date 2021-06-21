@@ -1,0 +1,62 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CidadeActivity">
+
+    <ImageView
+        android:id="@+id/imgEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sorocaba_aerea" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#95000000"
+        android:orientation="vertical"
+        android:padding="30dp"
+        >
+
+        <TextView
+            android:id="@+id/txtCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:gravity="center"
+
+           />
+
+        <TextView
+            android:id="@+id/txtDescricao2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terra_rasgada"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btnEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/ir_para_meu_estado"
+            android:textColor="@color/cit_pink"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            />
+
+
+    </LinearLayout>
+</FrameLayout>

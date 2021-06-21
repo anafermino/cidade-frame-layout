@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FrameCidade</string>
+    <string name="sao_paulo">São Paulo</string>
+    <string name="terra_da_garoa">Terra da garoa</string>
+    <string name="ir_para_minha_cidade">IR PARA MINHA CIDADE</string>
+    <string name="sorocaba">Sorocaba</string>
+    <string name="terra_rasgada">Terra rasgada</string>
+    <string name="ir_para_meu_estado">IR PARA MEU ESTADO</string>
+</resources>
